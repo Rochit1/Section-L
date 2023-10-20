@@ -54,32 +54,65 @@ nav ul li a:hover::after{
     width: 100%;
 }
 .header_text{
-    margin-top: 20%;
+    margin-top: 5%;
     font-size: 30px;
 }
 .header_text h1{
     font-size: 40px;
-    margin-top: 20px;
+    margin:0 auto;
+    text-align: center;
 }
+/* Add the following styles to your existing CSS */
+
+.header_text {
+    text-align: center;
+    padding-top: 100px; /* Adjust the padding to position the text below the navbar */
+}
+
+.header_text h1 {
+    font-size: 40px;
+    margin: 0 auto; /* Center the h1 element */
+    width: 80%; /* Set a specific width to control the text width */
+}
+
 .header_text p{
     color: #4d94ff;
 }
 .subject-list{
-    margin-top: 30px;
+    margin-top: 20px;
+    list-style: none;
+}
+.subject-list a{
+    color: #fff;
+    text-decoration:none;
 }
 .subject-list2{
-    margin-top: 30px;
+    margin-top: 20px;
+    list-style: none;
+}
+.subject-list2 a{
+    color: #fff;
+    text-decoration:none;
+}
+.butn{
+    display: block;
+    margin: 30px auto;
+    border: 1px solid #4d94ff;
+    padding: 14px 30px;
+    border-radius: 6px;
+    color: white;
+    transition: background 0.5s;
+}
+.butn:hover{
+    background: #4d94ff;
+    text-align: center;
 }
 .row {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-.mat-col1, .mat-col-2 {
-    flex: 1;
-    padding: 0 10px;
-    margin-left: 75px; /* Adjust the padding as needed for space between columns */
-}
+
 /* ----------contact------- */
 footer{
     background: rgba(46, 47, 48, 0.486);
@@ -183,5 +216,23 @@ footer{
         left: 25px;
         cursor: pointer;
     }
-    
+    .header_text {
+        margin-top: 50%;
+        font-size: 16px;
+    }
+
+    .header_text h1 {
+        font-size: 30px;
+        overflow: hidden;
+    }
+    .subject-list, .subject-list2{
+        flex-basis: 100%;
+    }
+    .subject-list{
+        margin-right: 10px;
+    }
+    .header_text h1{
+        align-items: center;
+        font-size: 14px;
+    }
  }
