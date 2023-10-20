@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>    <script src="https://kit.fontawesome.com/3822b5a9b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="notes.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Screenshot 2023-10-20 195216.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="notes.html">Notes</a></li>
+                    <li><a href="#">Calender</a></li>
+                    <li><a href="#">Updates</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header_text">
+                <div class="row">
+                <h1>NOTES</h1>
+                <ul class="subject-list">
+                    <li><a href="">Mathematics-II(1)</a></li>
+                    <li><a href="">English</a></li>
+                    <li><a href="">Electronics(1)</a></li>
+                    <li><a href="">Chemistry(1)</a></li>
+                </ul>
+                <ul class="subject-list2">
+                    <li><a href="">Mathematics-II(2)</a></li>
+                    <li><a href="">Programming</a></li>
+                    <li><a href="">Electronics(2)</a></li>
+                    <li><a href="">Chemistry(2)</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------CONTACT------ -->
+    <footer id="Contact">
+        <div class="footer-content">
+            <h3>L-Section</h3>
+            <p>You can contact us and help us improve this site</p>
+            <ul class="socials">
+                <li><a href="https://www.linkedin.com/in/rochit-surana-475637282/" target="_blank"><i class="fa-brands fa-linkedin"></i></a> Linkedin</li>
+                <li><a href=""><i class="fa-brands fa-square-instagram"></i></a> instagram</li>
+                <li><a href=""><i class="fa-brands fa-facebook"></i></a> Facebook</li>
+                <li><a href=""><i class="fa-brands fa-x-twitter"></i></a> Twitter</li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy;2023 L-Section Website. designed by <span>Rochit Surana</span></p>
+        </div>
+    </footer>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script> 
+</body>
+</html>
