@@ -66,28 +66,35 @@ nav ul li a:hover::after{
 
 .header_text {
     text-align: center;
-    padding-top: 100px; /* Adjust the padding to position the text below the navbar */
+    padding-top: 0px; /* Adjust the padding to position the text below the navbar */
 }
 
 .header_text h1 {
     font-size: 40px;
     margin: 0 auto; /* Center the h1 element */
     width: 80%; /* Set a specific width to control the text width */
+    padding-bottom: 20px;
+    text-decoration: underline;
+    color: #4d94ff;
 }
 
 .header_text p{
     color: #4d94ff;
 }
 .subject-list{
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
     list-style: none;
+    text-align:center ;
 }
 .subject-list a{
     color: #fff;
     text-decoration:none;
 }
 .subject-list2{
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-right: 35px;
+    text-align: center;
     list-style: none;
 }
 .subject-list2 a{
@@ -217,22 +224,32 @@ footer{
         cursor: pointer;
     }
     .header_text {
-        margin-top: 50%;
+        margin-top: 20%;
         font-size: 16px;
     }
 
     .header_text h1 {
         font-size: 30px;
-        overflow: hidden;
     }
     .subject-list, .subject-list2{
         flex-basis: 100%;
     }
     .subject-list{
-        margin-right: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
     }
     .header_text h1{
-        align-items: center;
-        font-size: 14px;
+        align-items: right;
+    }
+    btn{
+        padding: 14px 20px;
+        margin: 20px auto;
+    }
+    .subject-list2{
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+    .container{
+        padding-left: 20px;
     }
  }
