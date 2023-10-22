@@ -10,8 +10,6 @@ html{
 body{
     background:black;
     color:  #fff;
-    padding: 0;
-    margin: 0;
 }
 #header{
     width: 100%;
@@ -67,9 +65,6 @@ nav ul li a:hover::after{
     color: #4d94ff;
 }
 /* ----------contact------- */
-body {
-    margin-bottom: 60px; /* Adjust this value to match the height of your fixed footer */
-}
 footer{
     background: rgba(46, 47, 48, 0.486);
     height: auto;
@@ -97,7 +92,6 @@ footer{
     line-height: 28px;
     font-size: 14px;
 }
-
 .socials{
     list-style: none;
     display: flex;
@@ -136,12 +130,6 @@ footer{
     font-weight: 200;
     color: #4d94ff;
  }
- .calendar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
- }
  /* RESPONSIVE DESIGN */
  nav .fas{
     display: none;
@@ -178,9 +166,6 @@ footer{
         top: 25px;
         left: 25px;
         cursor: pointer;
-    }
-    iframe{
-        width: 100%;
     }
     
  }
